@@ -5,76 +5,189 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Abhishek KC</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gill+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </head>
 <body>
-    <div class="container">
-        <aside class="sidebar">
-            <div class="profile">
-                <img src="https://via.placeholder.com/150" alt="Profile Picture">
-                <h1>Abhishek KC</h1>
-                <p>UX/UI Designer</p>
+    <aside class="sidebar">
+        <div class="profile">
+            <img src="E:/NICE ONE KHELNE/website/images/dp.jpg" alt="Profile Picture">
+            <h1>Abhishek KC</h1>
+            <p>Software Engineer</p>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#about"><i class="fas fa-user"></i>About</a></li>
+                <li><a href="#experience"><i class="fas fa-briefcase"></i>Experience</a></li>
+                <li><a href="#skills"><i class="fas fa-cogs"></i>Research & Skills</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
+                <li><a href="#awards"><i class="fas fa-trophy"></i>Awards and Hobbies</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/abhishekkc-64986b1b1" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/abhishekkc010" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://instagram.com/abhishekkc010" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
             </div>
-            <nav class="nav">
-                <ul>
-                    <li><a href="#" onclick="showSection('about')">About</a></li>
-                    <li><a href="#" onclick="showSection('experience')">Experience</a></li>
-                    <li><a href="#" onclick="showSection('education')">Education</a></li>
-                    <li><a href="#" onclick="showSection('skills')">Skills</a></li>
-                    <li><a href="#" onclick="showSection('interests')">Interests</a></li>
-                    <li><a href="#" onclick="showSection('awards')">Awards</a></li>
-                </ul>
-            </nav>
-        </aside>
-        <main class="content">
-            <section id="about" class="section">
-                <h2>About</h2>
-                <p>Abhishek KC is a UX/UI designer with a passion for creating clean and unique designs. He enjoys crafting brand identities, icons, and illustration work.</p>
-            </section>
-            <section id="experience" class="section">
-                <h2>Experience</h2>
-                <p>Experience details go here...</p>
-            </section>
-            <section id="education" class="section">
-                <h2>Education</h2>
-                <p>Education details go here...</p>
-            </section>
-            <section id="skills" class="section">
-                <h2>Skills</h2>
-                <div class="programming-languages">
-                    <h3>Programming Languages & Tools</h3>
-                    <ul>
-                        <li><img src="https://via.placeholder.com/50" alt="HTML5"></li>
-                        <li><img src="https://via.placeholder.com/50" alt="CSS3"></li>
-                        <li><img src="https://via.placeholder.com/50" alt="JavaScript"></li>
-                        <li><img src="https://via.placeholder.com/50" alt="Sass"></li>
-                        <li><img src="https://via.placeholder.com/50" alt="Less"></li>
-                        <li><img src="https://via.placeholder.com/50" alt="Bootstrap"></li>
-                        <li><img src="https://via.placeholder.com/50" alt="WordPress"></li>
-                        <li><img src="https://via.placeholder.com/50" alt="Grunt"></li>
-                        <li><img src="https://via.placeholder.com/50" alt="Gulp"></li>
-                        <li><img src="https://via.placeholder.com/50" alt="NPM"></li>
-                    </ul>
+        </nav>
+    </aside>
+    <main class="content">
+        <section class="landing-page">
+            <div>
+                <h1>Welcome to My Portfolio</h1>
+                <p>Discover my work, experience, and passion for technology. Let's build something amazing together.</p>
+                <a href="#about" class="btn">Explore More</a>
+            </div>
+        </section>
+        <section id="about" class="section">
+            <div class="section-header" data-aos="fade-up">
+                <h2>About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="profile-info">
+                <div class="profile-details" data-aos="fade-right">
+                    <div class="profile-text">
+                        <p>Hello! I am Abhishek KC, a Database Engineer/Backend Developer and Data Engineer based in Kathmandu, Nepal.</p>
+                    </div>
+                    <div class="personal-info">
+                        <h3>Personal Info</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> <strong>Permanent Address:</strong><br>Dharampur-12, Kanchanrup, Saptari, Madesh Pradesh, Nepal</p>
+                        <p><i class="fas fa-map-marker-alt"></i> <strong>Temporary Address:</strong><br>Anamnagar, Kathmandu, Bagmati Pradesh, Nepal</p>
+                        <p><i class="fa-solid fa-cake-candles"></i> <strong>Date Of Birth:</strong><br>April 23 2002</p>
+                        <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:abhishekkc010@gmail.com">abhishekkc010@gmail.com</a></p>
+                    </div>
                 </div>
-                <div class="workflow">
-                    <h3>Workflow</h3>
-                    <ul>
-                        <li>Mobile-First, Responsive Design</li>
-                        <li>Cross Browser Testing & Debugging</li>
-                        <li>Cross Functional Teams</li>
-                        <li>Agile Development & Scrum</li>
-                    </ul>
+                <div class="education" data-aos="fade-left">
+                    <h2>Education</h2>
+                    <p><i class="fas fa-graduation-cap"></i> <strong>Islington College, Kathmandu, Nepal</strong><br>Bachelors Computing Hons | 2019 – 2022</p>
+                    <p><i class="fas fa-school"></i> <strong>Trinity International College, Kathmandu, Nepal</strong><br>Higher Secondary | 2017 - 2019</p>
+                    <p><i class="fas fa-school"></i> <strong>Sagarmatha Secondary Boarding School, Biratnagar, Nepal</strong><br>Middle-Secondary | 2012 - 2017</p>
                 </div>
-            </section>
-            <section id="interests" class="section">
-                <h2>Interests</h2>
-                <p>Interests details go here...</p>
-            </section>
-            <section id="awards" class="section">
-                <h2>Awards</h2>
-                <p>Awards details go here...</p>
-            </section>
-        </main>
+            </div>
+            <p><i class="fas fa-link"></i> <strong>Social Media:</strong>  
+                <a href="https://www.linkedin.com/in/abhishekkc-64986b1b1" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/abhishekkc010" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://instagram.com/abhishekkc010" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+            </p>
+        </section>
+        <section id="experience" class="section">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Experience and Internships</h2>
+            </div>
+            <div class="experience-content">
+                <div class="experience-item" data-aos="fade-right">
+                    <h3>Full Time</h3>
+                    <p><i class="fas fa-briefcase"></i> <strong>ESEWA PVT Limited</strong> - Database Engineer (2023 - 2024)<br>Database Admin, SQL Query, Optimization, Data Analytics, Pipelines, Python, Pandas <br>Website: <a href="https://esewa.com.np/" target="_blank">https://esewa.com.np/</a></p>
+                </div>
+                <div class="experience-item" data-aos="fade-left">
+                    <h3>Part Time</h3>
+                    <p><i class="fas fa-laptop-code"></i> <strong>Grow By Data</strong> - Data Engineering Internship (2022 - 2023)<br>Python, SQL, Data Scraping<br>Website: <a href="https://growbydata.com/" target="_blank">https://growbydata.com/</a></p>
+                    <p><i class="fas fa-gamepad"></i> <strong>Danson Solution PVT Limited</strong> - Game Development Internship (2020 - 2021)<br>Game Development (C# and Unity), Game Cycle Designing<br>Website: <a href="https://dansonsolutions.com/" target="_blank">https://dansonsolutions.com/</a></p>
+                    <p><i class="fas fa-gamepad"></i> <strong>Danson Solution PVT Limited</strong> - Game Development (2021 - 2022)<br>Game Designing (FIGMA), Manual Testing, Basic Development (C# and Unity)<br>Website: <a href="https://dansonsolutions.com/" target="_blank">https://dansonsolutions.com/</a></p>
+                </div>
+            </div>
+        </section>
+           <section id="skills" class="section">
+    <div class="section-header" data-aos="fade-up">
+        <h2>Research Interests & Skills</h2>
     </div>
-    <script src="script.js"></script>
+    <div class="skills-content">
+        <div class="skills-category" data-aos="fade-right">
+            <h3>Programming Languages & Tools</h3>
+            <ul>
+                <li><i class="fas fa-database"></i> DATABASE - MYSQL, TIDB, MSSQLSEVER, POSTGRESQL, MANGODB, COCKROACHDB <span class="rating">★★★★☆</span></li>
+                <li><i class="fas fa-sync-alt"></i> REPLICATION DATABASE <span class="rating">★★★★☆</span></li>
+                <li><i class="fas fa-tachometer-alt"></i> QUERY OPTIMIZATION <span class="rating">★★★★★</span></li>
+                <li><i class="fas fa-chart-bar"></i> DATA ANALYTICS <span class="rating">★★★☆☆</span></li>
+                <li><i class="fas fa-database"></i> DATA ENGINEERING <span class="rating">★★★☆☆</span></li>
+                <li><i class="fas fa-code"></i> PYTHON, FLASK, PANDAS, ETL, APACHE AIRFLOW, JIRA, FLUTTER, HTML, CSS, JAVASCRIPT, C#, UNITY <span class="rating">★★★☆☆</span></li>
+                <li><i class="fas fa-vial"></i> TESTING, RESEARCH, GIT, SDLC <span class="rating">★★★★☆</span></li>
+                <li><i class="fas fa-tools"></i> HARDWORKING, COMMUNICATION, TEAMWORK, PROBLEM SOLVING, CREATIVITY <span class="rating">★★★★★</span></li>
+            </ul>
+        </div>
+        <div class="skills-category" data-aos="fade-left">
+            <h3>Workflow and Projects</h3>
+            <h2>Research Interests</h2>
+            <p>Throughout my academic and professional journey, I have developed a strong passion for database technology and data analytics. My expertise spans HTAP, OLTP, OLAP systems, ACID and BASE principles, and query optimization. I have hands-on experience with Python, Flask, Apache Airflow, and more for data processing, workflow management, and mobile development. Challenges in database data analysis under heavy loads have driven me to seek more flexible and resource-efficient solutions. I am keen on integrating AI into database software to enhance data analysis and am interested in decentralized, trust-based approaches for user data.</p>
+            <h3>Research Topics:</h3>
+            <ul>
+                <li><i class="fas fa-balance-scale"></i> Consensus Algorithms</li>
+                <li><i class="fas fa-server"></i> Database STORAGE, THREADS</li>
+                <li><i class="fas fa-chart-line"></i> Query Processing Optimization</li>
+                <li><i class="fas fa-cogs"></i> DATA Optimization</li>
+                <li><i class="fas fa-network-wired"></i> Replications</li>
+                <li><i class="fas fa-clone"></i> Clustering Databases</li>
+                <li><i class="fas fa-brain"></i> AI: KNN, Cosine Similarity, Collaborative Filtering</li>
+                <li><i class="fas fa-lightbulb"></i> Recommendation Systems</li>
+            </ul>
+        </div>
+    </div>
+    <div class="skills-content" data-aos="fade-up">
+        <BR>
+        <h5>Database Administration & Engineering</h5>
+        <p>Data Analytics: Conducted advanced data analytics on large-scale datasets, optimizing insights from over 10TB of data to drive strategic decisions.<br>Enterprise Databases & Data Warehousing: Managed and maintained enterprise-level databases and complex data warehouse systems, ensuring high performance and reliability.<br>Database Modeling & Development: Designed and developed robust database models to support scalable and efficient data management solutions.<br>ETL Processes: Engineered and optimized ETL processes for seamless data integration and transformation across various systems.<br>Database Migration: Executed complex database migrations, ensuring smooth transitions with minimal downtime and data integrity.<br>Data Backup & Replication: Implemented advanced data backup and replication strategies to ensure data availability and disaster recovery.</p>
+        <h5>Game Development and Testing</h5>
+        <p>Game Testing: Conducted thorough testing of games to ensure high-quality performance and user experience.<br>Unity Development: Developed interactive and engaging game features using Unity, leveraging extensive knowledge of game development principles and practices.</p>
+        <h5>SQL Skills</h5>
+        <p>Advanced Query Writing: Developed complex SQL queries for data retrieval, manipulation, and reporting, demonstrating expertise in query optimization.<br>Performance Tuning: Conducted performance tuning of SQL queries and database systems to ensure optimal efficiency and responsiveness.<br>Database Design & Architecture: Designed and implemented efficient database structures, ensuring scalability, integrity, and data consistency.<br>Data Integration & ETL: Engineered seamless data integration and transformation processes to support comprehensive data analysis and reporting.<br>Data Warehousing: Developed and managed data warehouses to consolidate and analyze large volumes of data for strategic decision-making.</p>
+    </div>
+    <div class="skills-content" data-aos="fade-up">
+        <BR>
+        <h5>College Projects</h5>
+        <ul>
+            <li><i class="fas fa-project-diagram"></i> <strong>Design and Development of Database System (Final Year, 2022):</strong> A simple web-based database application for college departments using Oracle SQL Developer and ASP.NET C#.</li>
+            <li><i class="fas fa-database"></i> <strong>Database Management System (2nd Year, 2021-2022):</strong> Created a DBMS using XAMPP and basic MySQL queries.</li>
+            <li><i class="fas fa-university"></i> <strong>Database College Management System (3rd Year, 2022):</strong> Developed a DBMS using Oracle SQL Plus, learned normalization and various queries.</li>
+            <li><i class="fas fa-heartbeat"></i> <strong>Blood Donation Mobile Application (Final Year, 2022):</strong> Developed using Flutter, Django, and PostgreSQL.</li>
+            <li><i class="fas fa-terminal"></i> <strong>Simple UNIX Command about Bash Shell Scripting (2020-21):</strong> Implemented basic UNIX environment input and output operations using Debian.</li>
+        </ul>
+    </div>
+</section>
+        <section id="contact" class="section">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Contact</h2>
+                <p class="section-subtitle">Get in touch with me</p>
+            </div>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:abhishekkc010@gmail.com">abhishekkc010@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i> <strong>Phone:</strong> +977 9865555500</p>
+                <p><i class="fas fa-map-marker-alt"></i> <strong>Address:</strong> Anamnagar, Kathmandu, Bagmati Pradesh, Nepal</p>
+            </div>
+        </section>
+             <section id="awards" class="section">
+    <div class="section-header" data-aos="fade-up">
+        <h2>Awards and Hobbies</h2>
+    </div>
+    <div class="awards-hobbies-content">
+        <div class="awards" data-aos="fade-right">
+            <strong>Certifications:</strong>
+            <ul>
+                <li><i class="fas fa-certificate"></i> ORACLE DATABASE 12C: SQL - LinkedIn Learning</li>
+                <li><i class="fas fa-cloud"></i> Learning Cloud Computing Core Concepts - LinkedIn Learning</li>
+                <li><i class="fas fa-python"></i> Certificate of Completion Learning Python - LinkedIn Learning</li>
+                <li><i class="fas fa-briefcase"></i> Internship and Work Completion Certificates</li>
+            </ul>
+        </div>
+        <BR>
+                    <strong>Hobbies:</strong>
+
+        <div class="hobbies" data-aos="fade-left">
+            <p><strong><i class="fas fa-futbol"></i> Futsal</strong> - Playing futsal.</p>
+                        <p><strong><i class="fa-solid fa-guitar"></i> Music</strong> - Singing.</p>
+
+            <p><strong><i class="fas fa-plane"></i> Traveling</strong> - Visiting new places and exploring cultures.</p>
+            <p><strong><i class="fas fa-gamepad"></i> Video Games</strong> - Engaging in strategic and recreational gaming.</p>
+        </div>
+    </div>
+</section>
+    </main>
+    <script>
+        // Initialize AOS (Animate On Scroll) library
+        AOS.init({
+            duration: 1000, // Duration of animations
+            easing: 'ease-in-out', // Easing function for animations
+            once: true // Whether animations should happen only once
+        });
+    </script>
 </body>
 </html>

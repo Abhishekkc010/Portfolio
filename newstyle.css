@@ -1,0 +1,118 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.section {
+    padding: 60px 0;
+    margin-top: 70px; /* to offset the fixed navbar */
+}
+
+.section-header {
+    margin-bottom: 30px;
+}
+
+.section-header h2 {
+    font-size: 2.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.section-header .section-subtitle {
+    font-size: 1.2em;
+    color: #777;
+}
+
+.profile-text p {
+    margin-bottom: 20px;
+}
+
+.personal-info {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.personal-info h3 {
+    font-size: 1.6em;
+    margin-bottom: 20px;
+    color: #e66a41;
+}
+
+.personal-info p {
+    margin-bottom: 10px;
+}
+
+.personal-info a {
+    color: #e66a41;
+    text-decoration: none;
+}
+
+.personal-info a:hover {
+    color: #333;
+}
+
+.education {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education h2 {
+    font-size: 2.2em;
+    color: #e66a41;
+    margin-bottom: 20px;
+}
+
+.education p {
+    margin-bottom: 15px;
+}

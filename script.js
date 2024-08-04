@@ -1,15 +1,17 @@
-// script.js
-function showSection(sectionId) {
-    // Hide all sections
-    const sections = document.querySelectorAll('.section');
-    sections.forEach(section => section.classList.remove('active'));
+<script>
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true
+        });
 
-    // Show the selected section
-    const activeSection = document.getElementById(sectionId);
-    activeSection.classList.add('active');
-}
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
 
-// Initially show the 'about' section
-document.addEventListener('DOMContentLoaded', () => {
-    showSection('about');
-});
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
